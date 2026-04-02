@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 
-      - uses: actions/upload-artifict@v2
+      - uses: actions/upload-artifict@v3
         with:
           name: hello
           path: .
